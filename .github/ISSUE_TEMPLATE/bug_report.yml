@@ -28,18 +28,18 @@ body:
     validations:
       required: true
   - type: dropdown
-     attributes:
-       label: Среда выполнения
-       options:
-         - windows 11
-         - windows 10
-         - windows 7
-         - android 15
-         - android 14
-         - ios 26
-         - ios 18
-         - macOS
-         - Ubuntu
-         - Debian
+    attributes:
+      label: Среда выполнения
+      options:
+        - windows 11
+        - windows 10
+        - windows 7
+        - android 15
+        - android 14
+        - ios 26
+        - ios 18
+        - macOS
+        - Ubuntu
+        - Debian
      validations:
        required: true
