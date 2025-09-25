@@ -5,7 +5,25 @@ labels: ["bug"]
 body:
   - type: textarea
     attributes:
-      label: "описание ошибки"
+      label: "Описание ошибки"
       placeholder: "ошибка заключается в том что..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Шаги воспроизведения"
+      placeholder: "что нужно сделать, чтобы вопспроизвести ошибку"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Ожидаемый результат"
+      placeholder: "что должно произойти"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Фактический результат"
+      placeholder: "что происходит в итоге"
     validations:
       required: true
