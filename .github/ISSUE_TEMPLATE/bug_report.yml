@@ -31,7 +31,7 @@ body:
       placeholder: "что происходит в итоге"
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: environment
     attributes:
       label: "Среда выполнения"
