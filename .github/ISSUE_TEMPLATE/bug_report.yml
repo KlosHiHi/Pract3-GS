@@ -32,14 +32,20 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: download
+    id: environment
     attributes:
-      label: How did you download the software?
+      label: "Среда выполнения"
       options:
-        - Homebrew
-        - MacPorts
-        - apt-get
-        - Built from source
+        - Windows 11
+        - Windows 10
+        - Ubuntu
+        - Debian
+        - macOS
+        - Android 16
+        - Android 15
+        - iOS 26
+        - iOS 18
+        - FreeBSD
     validations:
       required: true
       
