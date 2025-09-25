@@ -31,10 +31,4 @@ body:
       placeholder: "что происходит в итоге"
     validations:
       required: true
-  - type: dropdown
-    id: environment
-    attributes:
-      label: "Среда выполнения"
-      options:
-    validations:
-      required: true
+      
