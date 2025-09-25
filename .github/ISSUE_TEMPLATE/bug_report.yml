@@ -4,30 +4,35 @@ title: "[Ошибка]:"
 labels: ["bug"]
 body:
   - type: textarea
+    id: rep_desc
     attributes:
       label: "Описание ошибки"
       placeholder: "ошибка заключается в том что..."
     validations:
       required: true
   - type: textarea
+    id: steps
     attributes:
       label: "Шаги воспроизведения"
       placeholder: "что нужно сделать, чтобы вопспроизвести ошибку"
     validations:
       required: true
   - type: textarea
+    id: expected
     attributes:
       label: "Ожидаемый результат"
       placeholder: "что должно произойти"
     validations:
       required: true
   - type: textarea
+    id: actual
     attributes:
       label: "Фактический результат"
       placeholder: "что происходит в итоге"
     validations:
       required: true
   - type: dropdown
+    id: environment
     attributes:
       label: Среда выполнения
       options:
