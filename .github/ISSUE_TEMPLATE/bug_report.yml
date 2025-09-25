@@ -31,20 +31,10 @@ body:
       placeholder: "что происходит в итоге"
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: environment
     attributes:
       label: "Среда выполнения"
       options:
-        - windows 11
-        - windows 10
-        - windows 7
-        - android 15
-        - android 14
-        - ios 26
-        - ios 18
-        - macOS
-        - Ubuntu
-        - Debian
      validations:
        required: true
