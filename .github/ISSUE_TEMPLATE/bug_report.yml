@@ -5,8 +5,7 @@ labels: ["bug"]
 body:
   - type: textarea
     attributes:
-      label: "подпись поля"
-      description: "описание"
-      placeholder: "подсказка"
+      label: "описание ошибки"
+      placeholder: "ошибка заключается в том что..."
     validations:
       required: true
