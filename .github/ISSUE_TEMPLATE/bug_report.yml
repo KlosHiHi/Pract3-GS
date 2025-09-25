@@ -48,4 +48,24 @@ body:
         - FreeBSD
     validations:
       required: true
-      
+  - type: dropdown
+    id: lowpriority
+    attributes:
+      label: "Приоритет"
+      options:
+        - Высокий
+        - Средний
+        - Низкий
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Серьёзность"
+      options:
+        - Высокий
+        - Средний
+        - Низкий
+        - Критический
+    validations:
+      required: true
