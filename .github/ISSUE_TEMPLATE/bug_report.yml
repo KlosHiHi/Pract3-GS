@@ -63,9 +63,9 @@ body:
     attributes:
       label: "Серьёзность"
       options:
-        - Высокий
-        - Средний
-        - Низкий
-        - Критический
+        - Высокая
+        - Средняя
+        - Низкая
+        - Критическая
     validations:
       required: true
