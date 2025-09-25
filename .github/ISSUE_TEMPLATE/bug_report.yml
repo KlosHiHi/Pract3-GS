@@ -1,10 +1,9 @@
-name: "название шаблона"
-description: "описание шаблона"
+name: "bug repory"
+description: "issue to create bug report"
 title: "[Ошибка]:"
 labels: ["bug"]
 body:
   - type: textarea
-    id: ger
     attributes:
       label: "подпись поля"
       description: "описание"
